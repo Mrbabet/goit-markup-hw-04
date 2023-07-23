@@ -10,6 +10,7 @@
   --cloud: #f4f4fd; /* Light*/
   --navybluemodal: #2e2f4266; /* Modal overlay*/
   --grey: #2e2f42; /* Hero background*/
+  --grey-mask: rgb(46, 47, 66, 0.7); /* Hero background*/
   --white: #fff; /* White background*/
   --dairy: #fcfcfc; /* Modal background*/
 }
@@ -213,9 +214,16 @@ footer .footer-text {
 
 /* Home */
 .hero {
-  background-color: var(--navyblue);
   padding: 188px 0px;
   height: 600px;
+  background: linear-gradient(var(--grey-mask), var(--grey-mask)),
+    url("../images/people-office1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--grey);
 }
 .hero .header-xl {
   color: var(--white, #fff);
