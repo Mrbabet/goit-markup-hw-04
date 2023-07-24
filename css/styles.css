@@ -137,6 +137,10 @@ img {
   width: 100%;
   display: block;
 }
+svg {
+  width: 100%;
+  display: block;
+}
 
 button {
   cursor: pointer;
@@ -218,12 +222,12 @@ footer .footer-text {
   height: 600px;
   background: linear-gradient(var(--grey-mask), var(--grey-mask)),
     url("../images/people-office1.jpg");
+  background-color: var(--grey);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: 1440px;
   margin: 0 auto;
-  background-color: var(--grey);
 }
 .hero .header-xl {
   color: var(--white, #fff);
@@ -268,7 +272,7 @@ footer .footer-text {
   width: 264px;
 }
 .strong-side > .header-s {
-  margin-bottom: 8px;
+  margin-block: 8px;
 }
 
 .our-job {
@@ -304,6 +308,17 @@ footer .footer-text {
 }
 .team-member-text > .header-s {
   margin-bottom: 8px;
+}
+.customers .header-m {
+  margin-bottom: 72px;
+}
+.clients {
+  display: flex;
+  gap: 24px;
+}
+.clients svg {
+  border: 1px solid var(--lightslate);
+  border-radius: 4px;
 }
 
 /* Portfolio */
