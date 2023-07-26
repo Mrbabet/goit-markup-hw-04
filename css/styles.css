@@ -338,23 +338,23 @@ footer .text-m {
   border: 1px solid var(--lightslate);
   border-radius: 4px;
 }
-.clients svg:hover {
+.clients svg:hover,
+.clients a:focus svg {
   border: 1px solid var(--ocean);
+  border-radius: 4px;
 }
 
 svg {
   color: white;
   fill: var(--iris);
 }
-svg:hover,
-svg:focus {
-  fill: var(--ocean);
-}
+
 .customers svg {
   fill: var(--lightslate);
 }
 svg:hover,
-svg:focus {
+svg:focus,
+a:focus svg {
   fill: var(--ocean);
 }
 
