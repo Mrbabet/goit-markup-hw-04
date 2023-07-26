@@ -338,6 +338,25 @@ footer .text-m {
   border: 1px solid var(--lightslate);
   border-radius: 4px;
 }
+.clients svg:hover {
+  border: 1px solid var(--ocean);
+}
+
+svg {
+  color: white;
+  fill: var(--iris);
+}
+svg:hover,
+svg:focus {
+  fill: var(--ocean);
+}
+.customers svg {
+  fill: var(--lightslate);
+}
+svg:hover,
+svg:focus {
+  fill: var(--ocean);
+}
 
 /* Portfolio */
 .filters {
@@ -397,8 +416,4 @@ footer .text-m {
 }
 .project-text > .header-s {
   margin-bottom: 8px;
-}
-
-#icon-instagram:hover {
-  fill: red;
 }
