@@ -138,7 +138,6 @@ img {
   display: block;
 }
 svg {
-  width: 100%;
   display: block;
 }
 
@@ -226,6 +225,11 @@ footer .text-m {
 .section {
   padding-block: 120px;
 }
+.icon-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Home */
 .hero {
@@ -269,16 +273,25 @@ footer .text-m {
 }
 .team-member .team-member-text p {
   color: var(--slate, #434455);
+  margin-bottom: 8px;
 }
 .strong-sides-section {
   width: 100%;
 }
 .social-icons {
-  margin-top: 8px;
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-inline: 16px;
+}
+.social-icons .icon-bg {
+  background-color: var(--iris);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.social-icons .icon-bg:hover,
+.social-icons .icon-bg:focus {
+  background-color: var(--ocean);
 }
 
 .strong-sides-section .strong-sides {
@@ -291,6 +304,12 @@ footer .text-m {
 }
 .strong-side > .header-s {
   margin-block: 8px;
+}
+
+.strong-side .icon-bg {
+  background-color: var(--cloud);
+  border-radius: 4px;
+  height: 112px;
 }
 
 .our-job {
@@ -334,27 +353,23 @@ footer .text-m {
   display: flex;
   gap: 24px;
 }
-.clients svg {
+.client .icon-bg {
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
   border: 1px solid var(--lightslate);
-  border-radius: 4px;
 }
-.clients svg:hover,
-.clients a:focus svg {
+.client .icon-bg:hover,
+.client .icon-bg:focus {
   border: 1px solid var(--ocean);
-  border-radius: 4px;
 }
-
-svg {
-  color: white;
-  fill: var(--iris);
-}
-
-.customers svg {
+.client .icon-bg svg,
+.client .icon-bg svg {
   fill: var(--lightslate);
 }
-svg:hover,
-svg:focus,
-a:focus svg {
+
+.client .icon-bg:hover svg,
+.client .icon-bg:focus svg {
   fill: var(--ocean);
 }
 
