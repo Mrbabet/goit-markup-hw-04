@@ -217,6 +217,7 @@ footer .footer-text {
 }
 footer .container {
   display: flex;
+  align-items: baseline;
 }
 footer .social-icons {
   padding: 0;
