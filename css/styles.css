@@ -206,8 +206,6 @@ footer {
   background-color: var(--navyblue);
   padding-block: 100px;
 }
-footer .logo {
-}
 
 footer .logo .accent {
   color: var(--cloud);
@@ -218,6 +216,7 @@ footer .footer-text {
 }
 footer .container {
   display: flex;
+  align-items: baseline;
 }
 footer .social-icons {
   padding: 0;
@@ -228,7 +227,9 @@ footer .social-icons .icon-bg:focus,
 footer .social-icons .icon-bg:active {
   background-color: var(--green);
 }
-
+footer .social-icons .icon-bg svg {
+  fill: var(--cloud);
+}
 footer .text-m {
   color: white;
 }
