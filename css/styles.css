@@ -211,7 +211,7 @@ footer {
 footer .logo .accent {
   color: var(--cloud);
 }
-footer .footer-text {
+footer .footer-container-1 {
   color: var(--cloud);
   width: 264px;
 }
