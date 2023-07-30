@@ -235,6 +235,10 @@ footer .text-m {
 }
 .footer-container-1 {
   margin-right: 120px;
+  align-items: baseline;
+}
+.footer-container-2 {
+  align-items: baseline;
 }
 .footer-container-1 > .logo {
   display: block;
